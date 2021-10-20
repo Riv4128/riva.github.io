@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    
+    
+        <form method="post"action="recebe.php">
+            
+            
+            <fieldset>
+                
+                <h1>Faça seu pedido pelo site e ganhe Brindes</h1>
+                <label>Nome :</label>
+                <input type="text" name="nome">
+                <br>
+                <br>   
+                <label>Endereço :</label>
+                <input type="text" name="Endereço">
+                <br>
+                <br>
+                <label>Escolha seu Estado</label>
+                <select id="UF" name="UF">
+                    <option value="">Selecione</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+
+
+                <label>Sexo :</label>
+                <input type="radio" name="genero"value="M"><label>Masculino</label>
+                <input type="radio" name="genero"value="F"><label>Feminino</label>
+                <input type="radio" name="genero"value="NI"><label>Não Informado</label>
+                <br>
+                <br>
+                <label>E-mail :</label>
+                <input type="email" name="E-mail">
+                <br>
+                <br>
+                <label>Escolha abaixo seu Produto</label>
+                <br>
+                <br>
+                <label>Bolo Doce :</label>
+                <input type="checkbox" name="bolo doce"value="Bolo Doce"name="bolo doce">
+                <label>Bolo Salgado :</label>
+                <input type="checkbox" name="doces"value="Bolo salgado">
+        
+                <label>Doces em Geral :</label>
+                <input type="checkbox" name="doces"value="Bolo salgado">
+                <br>
+                <br>
+                <label>Descreva o recheio do seu bolo ou doce que deseja<br>
+                       com todos os detalhes "OBS :
+                       Essa parte é muito importante" </label>
+                <br>
+                <br>
+                <textarea type="mensagem"rows="5"cols="50"></textarea>
+                <br>
+                <br>
+            
+                <label>Escolha a data da Entrega </label>
+                <input type="date" name="Data">
+                <br>
+                <br>
+                <!--<label>Enviar Arquivo :</label>
+                <input type="file" name="Enviar Arquivo">
+                <br>
+                <br>-->
+                
+                
+            </select>
+
+                
+                  
+                
+            </fieldset>
+       
+                <input type ="submit" value="Enviar">
+                <input type ="reset" value="Limpar"> 
+                         
+        </form>
+        
+</body>
+</html>

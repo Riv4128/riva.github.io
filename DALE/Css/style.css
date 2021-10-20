@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+background:white;
+
+background-image: url("../imagens/fundo-diferente.gif");
+background-size: 93.9%;
+
+
+}
+header {
+
+text-align: center;
+
+background-image: url("../imagens/fundo3.jpeg");
+
+background-position-y: 75%;
+background-position-x: 1%;
+width: 100%;
+padding: 60px;
+
+
+
+}
+
+header h1 {
+font-size: 50px;
+color: rgb(243, 245, 247);
+font-style: oblique;
+position: relative;
+top: 55px;
+
+}
+
+
+nav ul {
+
+list-style:none ;
+position: fixed;
+background:black;
+overflow: hidden;
+margin: 0;
+padding: 0;
+width: 100%;
+float: inline-start;
+
+
+
+}
+
+
+nav a {
+color:rgba(208, 241, 21, 0.37);
+text-decoration: none;
+padding: 16px;
+display: block;
+top:0;
+
+
+}
+
+nav li {
+float: left;
+
+}
+
+/* efeito barra de navegação*/
+nav a:hover {
+background-color: rgb(250, 237, 237);
+color: rgb(28, 138, 241);
+
+}
+
+img {
+width: 100%;
+}
+
+
+footer {
+padding: 2px;
+color: rgba(17, 185, 236, 0.651);
+background-color: black;
+bottom: 2px;
+display: table;
+width: 100%;
+position: absolute;
+opacity: 75%;
+
+}
+
+footer dt {
+font-weight: bold;
+text-align: center;
+}
+
+footer dd {
+margin-left: 0;
+text-align: center;
+}
+
+footer p {
+text-align: center;
+}
+
+
+
